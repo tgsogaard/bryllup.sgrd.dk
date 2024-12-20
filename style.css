@@ -1,0 +1,55 @@
+body {
+    font-family: 'Cursive', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0 10px 0 10px;
+    background-color: #fdf8f5;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #4a4a4a;
+    width: 12.5rem;
+    opacity: 30%
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+h1 {
+    margin-top: -1rem;
+    font-size: 7rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+#heart-icon {
+    max-width: 10rem;
+    opacity: 30%;
+    transform: rotate(15deg);
+    transition: transform 0.3s ease;
+}
+#heart-icon:hover {
+    transform: rotate(-5deg);
+}
+.box {
+    border: 2px solid #c7c4c2;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f0efed;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
